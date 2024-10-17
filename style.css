@@ -1,16 +1,23 @@
-body{
+body {
     background-color: rgb(132, 0, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-footer{
+footer { 
     background-color: rgb(156, 54, 252);
     color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-footer p{
+footer p {
     text-align: center;
     font-size: 0.6rem;
     margin: 0.5rem;
-    
+}
+#container {
+    display: flex;
+}
+.cartao{
+    margin: 1rem 1rem;
+
 }
