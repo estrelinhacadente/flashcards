@@ -11,7 +11,7 @@ footer {
 }
 footer p {
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin: 0.5rem;
 }
 #container {
@@ -24,7 +24,17 @@ footer p {
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
 }
-.cartao_coteudo{
+.cartao_conteudo{
     text-align: center;
-    background-color: indianred;
+    background-color: rgb(88, 0, 151);
+    height: 100%;
+}
+.cartao_conteudo h3{
+    background-color: rgb(193, 146, 255);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
